@@ -6,14 +6,14 @@ echo "Enter a positive integer: "
 read -r NUM
 X=1
 
-while [ "$X" -le "$NUM" ]
+while [ $X -le "$NUM" ]
 do
-		if [ $(( X%2 )) -eq 0 ]
-		then
-			echo $X "Even"
-		else
-			echo $X "Odd"
+	if [ $(( X%2 )) -eq 0 ]
+	then
+		echo $X "Even"
+	else
+		echo $X "Odd"
 	fi
-	X=$((X+!))
+	X=$(( X+1 ))
 done
 echo "Program is complete."
