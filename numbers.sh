@@ -6,7 +6,7 @@ echo "Enter a positive integer: "
 read -r NUM
 X=1
 
-while [ "X1" -le "$NUM" ]
+while [ "$X" -le "$NUM" ]
 do
 		if [ $(( X%2 )) -eq 0 ]
 		then

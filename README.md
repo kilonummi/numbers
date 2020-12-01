@@ -1,8 +1,8 @@
 ## Identifying Information: 
-1. Name: 
-2. Student ID: 
-3. Email: 
-4. Class: 
+1. Name: Kylie Ilonummi 
+2. Student ID: 2373472 
+3. Email: ilonummi@chapman.edu
+4. Class: CENG 298^02
 5. Assignment: numbers 
 
 ## Application Purpose
